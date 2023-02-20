@@ -12,6 +12,7 @@ public class MyWebApplication {
 	@Controller
 	public class HelloController{
 		
+		@ResponseBody
 		@RequestMapping("/hello")
 		public String hello() {
 			return "hello";
